@@ -1,0 +1,237 @@
+body {
+    margin: 0px;
+    background: #4b4b4b; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #6d6d6d, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #6d6d6d, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #6d6d6d, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #6d6d6d, black); /* Standard syntax (must be last) */
+    font-family: "Trebuchet MS";
+}
+
+#top-nav {
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: black;
+}
+
+#logout-link {
+    color: black;
+}
+#logout-btn{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 80px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#logout-btn span{
+    line-height: 60px;
+}
+#padding-div {
+    width: 100%;
+    height: 100px;
+}
+#header-div {
+    margin: auto;
+    width: 420px;
+    text-align: center;
+    padding-top: 10px;
+}
+#header-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#login-div {
+    width: 40%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px 10% 50px 10%;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+
+#login-div form span{
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black;
+}
+
+.text-inputs{
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.44);
+    color: white;
+    border:none;
+    box-shadow: 1px 1px 0 black;
+}
+.main_div {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+
+#admin-form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#admin-form #query-text {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    resize: none;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.44);
+    color: white;
+    font-size: 17px;
+}
+
+#admin-form #query-text:focus {
+    box-shadow: 0px 0px 5px white;
+}
+form input[type='submit'] {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #ffffff, #727272);
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+}
+
+#admin-table {
+    background-color: rgba(47, 47, 47, 0.74);
+    border: none;
+    font-size: 20px;
+    
+}
+
+#admin-table th{
+    color: rgb(26, 26, 26);
+    margin: 0px;
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    background-color: #7c7c7c;
+}
+#admin-table td{
+    color: rgb(183, 183, 183);
+    margin: 0px;
+    padding: 0 10px 0 10px;
+}
+#tab-group {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+.tablinks {
+    display: inline-block;
+    margin: 0;
+}
+
+#tab-group button {
+    font-weight: bold;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    background: #808080; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(#808080, #585858); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#808080, #585858); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#808080, #585858); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#808080, #585858); /* Standard syntax (must be last) */
+}
+
+/* Change background color of buttons on hover */
+#tab-group button:hover {
+    background: #808080; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(#9a9a9a, #606060); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9a9a9a, #606060); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9a9a9a, #606060); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9a9a9a, #606060); /* Standard syntax (must be last)*/
+}
+
+/* Create an active/current tablink class */
+#tab-group button.active {
+   background: #808080; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(#5f5f5f, #464646); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(##5f5f5f, #464646); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(##5f5f5f, #464646); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(##5f5f5f, #464646); /* Standard syntax (must be last) */
+    color: #b9b9b9;
+}
+
+#message-div {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px auto 0 auto;
+    font-size: 20px;
+}
+
+#message-div #message-span {
+    color: grey;
+    font-weight: bold;
+}
+
+#fail-message {
+    color: red;
+}
+
+#pass-message {
+    color: limegreen;
+}
+#table-container{
+    max-height: 500px;
+    overflow: auto;
+}
+#defaultOpen{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#lastTab {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#regular-message {
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: grey;
+    text-shadow: 2px 2px 0 black;
+}
